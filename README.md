@@ -1,146 +1,334 @@
-# C++ Game Development Course
+# CP213 Java Programming - Complete Study Materials
 
-This repository contains my coursework and projects for a comprehensive C++ game development course.
+## 📚 Textbook Structure
+This repository contains optimized study materials organized by textbook chapters for CP213 Java Programming course.
 
-## 📚 Course Overview
+## 📖 Chapter Organization
 
-**What I'm Learning:**
-- C++ Fundamentals
-- Game Development with C++
-- C++ Application Development Process
-- Git and GitHub Version Control
-- CMake Build Tool
+### **Chapter 1: Getting Started** (Page 1)
+- Introduction to Java
+- Expressions and Assignment Statements
+- The Class String
+- Program Style
+- Comments and Named Constants
 
-**Course Stats:**
-- 38.5 hours of video content
-- 18 sections • 176 lectures
-- Final project: "Light Years" game using SFML and Box2D
+### **Chapter 2: Console Input and Output** (Page 57)
+- Screen Output
+- Console Input Using Scanner Class
+- Introduction to File Input
+- File Output
 
-## 🗂️ Course Content
+### **Chapter 3: Flow of Control** (Page 99)
+- Branching Mechanisms
+- Boolean Expressions
+- Loops
+- Debugging
+- Random Number Generation
 
-### Part 1: C++ Fundamentals
-- Variables, Arrays, Vectors, Maps
-- Operators and Control Flow (if, for, while, switch)
-- Functions and Templates
-- Basic coding exercises
+### **Chapter 4: Defining Classes I** (Page 173)
+- Class Definitions
+- Information Hiding and Encapsulation
+- Overloading
+- Constructors
+- Static Methods and Static Variables
 
-### Part 2: Memory Management
-- Pointers and Memory Basics
-- Stack vs Heap Memory
-- Smart Pointers (unique_ptr, shared_ptr, weak_ptr)
-- Memory Leaks and Access Violations
+### **Chapter 5: Defining Classes II** (Page 259)
+- References and Class Parameters
+- Using and Misusing References
+- Packages and javadoc
 
-### Part 3: Object-Oriented Programming
-- Classes, Constructors, Destructors
-- Inheritance and Polymorphism
-- Operator Overloading
-- Move Semantics and The Big Five
-- Template Classes
+### **Chapter 6: Arrays** (Page 345)
+- Introduction to Arrays
+- Arrays and References
+- Programming with Arrays
+- Multidimensional Arrays
 
-### Part 4: Version Control
-- Git basics (commits, branches, merging)
-- GitHub (push, pull, remote repositories)
-- Git ignore and best practices
+### **Chapter 7: Inheritance** (Page 427)
+- Inheritance Basics
+- Inheritance Details
+- Programming with Inheritance
 
-### Part 5: Build Tools
-- CMake fundamentals
-- Multi-file projects
-- Library linking (static and dynamic)
+### **Chapter 8: Polymorphism and Abstract Classes** (Page 483)
+- Polymorphism
+- Abstract Classes
+- Interfaces
 
-### Part 6: Game Development Project - "Light Years"
-- SFML graphics library integration
-- Box2D physics engine
-- Game architecture (Actor system, World, Object management)
-- Asset management
-- Input handling and game loop
-- Health system and combat mechanics
-- Physics and collision detection
-- Particles and visual effects
+### **Chapter 9: Exception Handling** (Page 523)
+- Exception Handling Basics
+- Exception Classes
+- Programming Techniques for Exception Handling
 
-## 🎮 Main Project: Light Years Game
+### **Chapter 10: File I/O** (Page 581)
+- File I/O Basics
+- Text Files
+- Binary Files
 
-A space shooter game built from scratch using:
-- **SFML** - Graphics and rendering
-- **Box2D** - Physics simulation
-- **CMake** - Build system
-- Custom game engine with Actor-Component architecture
+### **Chapter 11: Recursion** (Page 651)
+- Recursive Methods
+- Programming with Recursion
 
-## 🛠️ Tools & Technologies
+### **Chapter 12: UML and Patterns** (Page 693)
+- UML
+- Design Patterns
 
-- **IDE:** Visual Studio / Visual Studio Code
-- **Build System:** CMake
-- **Graphics:** SFML (Simple and Fast Multimedia Library)
-- **Physics:** Box2D
-- **Version Control:** Git & GitHub
-- **Language:** C++17/20
+### **Chapter 13: Interfaces and Inner Classes** (Page 715)
+- Interfaces
+- Inner Classes
 
-## 📁 Repository Structure
+### **Chapter 14: Generics and the ArrayList Class** (Page 763)
+- Generics
+- ArrayList Class
+
+### **Chapter 15: Linked Data Structures** (Page 807)
+- Linked Lists
+- Linked List Applications
+
+### **Chapter 16: Collections, Maps and Iterators** (Page 903)
+- Collections Framework
+- Maps
+- Iterators
+
+### **Chapter 17: Swing I** (Page 949)
+- Swing Basics
+- Event Handling
+
+### **Chapter 18: Swing II** (Page 1025)
+- Advanced Swing Components
+
+### **Chapter 19: Java Never Ends** (Page 1087)
+- Advanced Topics
+
+### **Chapter 20: Applets and HTML** (Online)
+- Applet Programming
+
+## 📁 File Structure
 
 ```
-cpp/
-├── fundamentals/        # Basic C++ exercises
-├── memory-management/   # Pointer and memory exercises
-├── oop/                # Object-oriented programming exercises
-├── simple-tasks/       # Course practice problems
-├── light-years-game/   # Main game project
-└── README.md
+CP213/
+├── README.md                           # This file
+├── index.md                            # Master index of all materials
+├── study-guide.md                      # Comprehensive study guide
+├── exam-prep.md                        # Exam preparation checklist
+│
+├── chapter-01-getting-started/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-02-console-input-output/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-03-flow-of-control/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-04-defining-classes-i/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-05-defining-classes-ii/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-06-arrays/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-07-inheritance/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-08-polymorphism-abstract-classes/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-09-exception-handling/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-10-file-io/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-11-recursion/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-12-uml-patterns/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-13-interfaces-inner-classes/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-14-generics-arraylist/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-15-linked-data-structures/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-16-collections-maps-iterators/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-17-swing-i/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-18-swing-ii/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-19-java-never-ends/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── chapter-20-applets-html/
+│   ├── flashcards/
+│   │   ├── quizlet-import.txt
+│   │   └── anki-import.csv
+│   ├── study-guide.md
+│   └── practice-questions.md
+│
+├── appendices/
+│   ├── keywords.md
+│   ├── precedence-rules.md
+│   ├── ascii-character-set.md
+│   ├── printf-format-specifications.md
+│   └── classes-interfaces-summary.md
+│
+├── resources/
+│   ├── code-examples/
+│   ├── practice-programs/
+│   ├── sample-exams/
+│   └── reference-materials/
+│
+└── tools/
+    ├── study-timer.md
+    ├── progress-tracker.md
+    └── exam-simulator.md
 ```
 
-## 🚀 Getting Started
+## 🎯 Study Strategy
 
-### Prerequisites
-- Visual Studio (with C++ development tools)
-- CMake (version 3.15+)
-- Git
+### **Phase 1: Foundation (Chapters 1-3)**
+- Master basic Java syntax and concepts
+- Understand variables, expressions, and control flow
+- Practice with console I/O and debugging
 
-### Building Projects
-```bash
-# For CMake projects
-mkdir build
-cd build
-cmake ..
-cmake --build .
-```
+### **Phase 2: Object-Oriented Programming (Chapters 4-5)**
+- Learn class definitions and encapsulation
+- Understand constructors and static methods
+- Master references and parameter passing
 
-### Running Examples
-```bash
-# Compile simple programs
-g++ filename.cpp -o output
-./output
-```
+### **Phase 3: Data Structures (Chapters 6-7)**
+- Master arrays and multidimensional arrays
+- Learn inheritance and polymorphism
+- Understand abstract classes and interfaces
 
-## 📝 Progress Tracking
+### **Phase 4: Advanced Topics (Chapters 8-11)**
+- Exception handling and file I/O
+- Recursion and design patterns
+- UML and advanced OOP concepts
 
-- [x] Introduction and Setup
-- [ ] C++ Fundamentals
-- [ ] Memory Management
-- [ ] Object-Oriented Programming
-- [ ] Git and GitHub
-- [ ] CMake
-- [ ] Light Years Game Project
+### **Phase 5: Collections and GUI (Chapters 12-18)**
+- Generics and ArrayList
+- Linked data structures
+- Collections framework
+- Swing GUI programming
 
-## 🎯 Learning Goals
+## 📝 Usage Instructions
 
-1. Master C++ fundamentals and OOP concepts
-2. Understand memory management and smart pointers
-3. Build a complete game from scratch
-4. Learn professional development workflows (Git, CMake)
-5. Apply software engineering principles in game development
+1. **For each chapter:**
+   - Start with the study guide
+   - Import flashcards into your preferred study app
+   - Complete practice questions
+   - Review code examples
 
-## 📖 Resources
+2. **Flashcard formats:**
+   - **Quizlet**: Tab-separated format ready for import
+   - **Anki**: CSV format for spaced repetition
 
-- Course platform: [Udemy/Course Platform]
-- SFML Documentation: https://www.sfml-dev.org/
-- Box2D Documentation: https://box2d.org/
-- CMake Documentation: https://cmake.org/documentation/
+3. **Study progression:**
+   - Follow the phase-based approach
+   - Complete each chapter before moving to the next
+   - Review previous chapters regularly
 
-## 📧 Contact
+## 🔗 Quick Links
 
-**Solomon Olufelo**
-- Email: oluf9170@mylaurier.ca
-- Student ID: 210729170
+- [Master Index](index.md)
+- [Study Guide](study-guide.md)
+- [Exam Preparation](exam-prep.md)
+- [Progress Tracker](tools/progress-tracker.md)
+
+## 📊 Progress Tracking
+
+Use the progress tracker to monitor your completion of:
+- [ ] Chapter flashcards studied
+- [ ] Practice questions completed
+- [ ] Code examples reviewed
+- [ ] Sample exams taken
 
 ---
 
-*This repository is for educational purposes as part of my academic journey in software development.*
-
+*This structure is optimized for efficient study and easy navigation through all CP213 materials.*
