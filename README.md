@@ -1,68 +1,73 @@
-# 🎓 CP213: Object-Oriented Programming (Java)
+# ☕ Java OOP Architecture
 
-**Solomon Olufelo** | Wilfrid Laurier University  
-*Comprehensive course archive, lab work, and exam preparation.*
+**Solomon Olufelo** | Software Engineer & Java Specialist  
+*A comprehensive implementation of Object-Oriented design patterns, data structures, and system architecture in Java.*
+
+---
+
+## 🎯 Project Overview
+
+This repository serves as a reference implementation for **Object-Oriented Programming (OOP)** principles and core Java architecture. It moves beyond basic syntax to demonstrate scalable software design, inheritance hierarchies, and polymorphic behavior in real-world scenarios.
+
+**Core Concepts Demonstrated:**
+- **Polymorphism & Inheritance**: Designing flexible class hierarchies.
+- **Exception Handling**: Robust error management strategies.
+- **Data Structures**: Custom implementations of core collections.
+- **GUI Development**: JavaFX/Swing event-driven programming.
 
 ---
 
 ## 📁 Repository Structure
 
-This repository is organized into a fluid system for learning and reference.
+Organized as a modular system for easy reference and extensibility.
 
 ### 🖥️ Source Code (`/src`)
-All Java code is consolidated here, separated by type.
+Modular Java components separated by architectural focus.
+
+| Directory | Focus Area |
+|-----------|------------|
+| **[`src/assignments/`](./src/assignments)** | Complex architectural challenges (Inheritance, Interfaces). |
+| **[`src/labs/`](./src/labs)** | Practical implementations of core OOP concepts. |
+| **[`src/lessons/`](./src/lessons)** | Reference patterns and design examples. |
+| **[`src/sandbox/`](./src/sandbox)** | Experimental features and algorithm testing. |
+
+### 📚 Technical Documentation (`/docs`)
+Architecture notes and design docs.
 
 | Directory | Content |
 |-----------|---------|
-| **[`src/assignments/`](./src/assignments)** | Graded assignments (`a01`, `a02`, etc.) |
-| **[`src/labs/`](./src/labs)** | Weekly lab exercises (`l01`, `l02`, etc.) |
-| **[`src/lessons/`](./src/lessons)** | In-class code examples and demos |
-| **[`src/sandbox/`](./src/sandbox)** | Experiments and practice problems |
-
-### 📚 Documentation (`/docs`)
-Study materials, guides, and notes.
-
-| Directory | Content |
-|-----------|---------|
-| **[`docs/curriculum-slices/`](./docs/curriculum-slices)** | Core learning modules broken down by topic |
-| **[`docs/flashcards/`](./docs/flashcards)** | Quizlet exports and Anki-ready decks |
-| **[`docs/guides/`](./docs/guides)** | "How-to" guides (e.g., Setup, Debugging) |
-| **[`docs/lecture-notes/`](./docs/lecture-notes)** | Raw notes from lectures |
-| **[`docs/planning/`](./docs/planning)** | Exam prep schedules and roadmaps |
+| **[`docs/curriculum-slices/`](./docs/curriculum-slices)** | Deep dives into specific Java topics (Threads, I/O). |
+| **[`docs/guides/`](./docs/guides)** | Setup guides and best practices. |
+| **[`docs/lecture-notes/`](./docs/lecture-notes)** | Theoretical foundations of OOP. |
 
 ---
 
-## ⚡ Key Resources
+## ⚡ Featured Modules
 
-- **[Master Learning Path](./docs/guides/MASTER_LEARNING_PATH.md)**: The strategic roadmap for acing this course.
-- **[Exam Priority Map](./docs/guides/EXAM_PRIORITY_MAP.md)**: What to study first for the final.
-- **[Java Syntax Cheat Sheet](./docs/resources/java-cheat-sheet.md)**: Quick reference for syntax.
-
----
-
-## 🛠️ Setup & Usage
-
-### Prerequisites
-- **Java JDK 17+**
-- **Eclipse IDE** (or VS Code with Java Extensions)
-
-### Running Code
-Each folder in `src` corresponds to a Java package or project.
-1. Open the folder in your IDE.
-2. Ensure the build path is configured.
-3. Run `public static void main(String[] args)` methods directly.
+- **[Inheritance Systems](./src/assignments/oluf9170_a01)**: Advanced class hierarchies and abstract implementations.
+- **[Exception Architecture](./src/labs/oluf9170_l04)**: Custom exception handling patterns.
+- **[Data Model Design](./src/assignments/oluf9170_a02)**: Designing robust data objects.
 
 ---
 
-## 📅 Progress Tracker
+## 🛠️ Tech Stack
 
-- [x] **Lab 01**: Intro to Java
-- [x] **Lab 02**: Classes & Objects
-- [ ] **Assignment 01**: Inheritance
-- [ ] **Assignment 02**: Polymorphism
-- [ ] **Midterm Exam**
-- [ ] **Final Exam**
+- **Language**: Java 17+ (LTS)
+- **IDE Support**: Eclipse / IntelliJ IDEA / VS Code
+- **Testing**: JUnit 5
+- **Build**: Gradle / Maven compatible structure
 
 ---
 
-*Repository optimized for efficiency and clarity.*
+## 📅 Development Tracker
+
+- [x] **Core Syntax & Memory Model**
+- [x] **Object Lifecycle Management**
+- [x] **Advanced Inheritance Patterns**
+- [x] **Polymorphic Interface Design**
+- [ ] **GUI & Event Systems**
+- [ ] **Multithreading & Concurrency**
+
+---
+
+*This repository demonstrates professional Java development practices aligned with modern industry standards.*
