@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+C:\Users\solom\CP213\.metadata\.plugins\org.eclipse.jdt.core
-3210825505.index
-1865797976.index

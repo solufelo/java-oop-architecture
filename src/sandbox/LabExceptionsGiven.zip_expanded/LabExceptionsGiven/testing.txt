@@ -1,0 +1,29 @@
+Testing: Exceptions
+Test
+stringPrinter(3, "hey!");
+OK
+Test use of 'InputMismatchException' in 'scannerTest':
+OK
+Test:
+stringPrinter(-3, "hey!");
+OK
+Test: scannerTest(...) with: "5
+Quit
+"
+OK
+Test: scannerTest(...) with: "5
+x
+4
+y
+Quit
+"
+OK
+Test: scannerTest(...) with: "Quit
+"
+OK
+Test: scannerTest(...) with: "x
+z
+Quit
+"
+OK
+Mark: 7 / 7

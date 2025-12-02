@@ -1,0 +1,212 @@
+SingleLink Data Structures Tests
+
+Tests are of the form:
+  Test Operation {expected object}: actual object
+  Contents: [contents from front to rear]
+
+================================================================================
+Testing SingleStack
+----------------------------------------
+SingleStack<Integer> source = new SingleStack<>();
+  isEmpty {true}: true
+----------------------------------------
+Push objects: [31, 11, 32, 19, 21, 17, 22]
+  push: 31
+  push: 11
+  push: 32
+  push: 19
+  push: 21
+  push: 17
+  push: 22
+  isEmpty {false}: true
+  peek {22}: null
+  Contents: []
+----------------------------------------
+source.splitAlternate(left, right)
+source
+  isEmpty {true}: true
+  Contents: []
+left
+  isEmpty {false}: true
+  peek {31}: null
+  Contents: []
+right
+  isEmpty {false}: true
+  peek {11}: null
+  Contents: []
+----------------------------------------
+target.combine(left, right)
+target
+  isEmpty {false}: true
+  peek {22}: null
+  Contents: []
+left
+  isEmpty {true}: true
+  Contents: []
+right
+  isEmpty {true}: true
+  Contents: []
+----------------------------------------
+Clear target
+
+----------------------------------------
+Test Stack with strings
+================================================================================
+Testing SingleQueue
+----------------------------------------
+SingleQueue<Integer> source = new SingleQueue<>();
+  isEmpty {true}: true
+----------------------------------------
+Insert objects: [5, 41, 22, 2, 35, 49, 39]
+  insert: 5
+  insert: 41
+  insert: 22
+  insert: 2
+  insert: 35
+  insert: 49
+  insert: 39
+  isEmpty {false}: true
+  peek {5}: null
+  Contents: []
+----------------------------------------
+source.splitAlternate(left, right)
+source
+  isEmpty {true}: true
+  Contents: []
+left
+  isEmpty {false}: true
+  peek {5}: null
+  Contents: []
+right
+  isEmpty {false}: true
+  peek {41}: null
+  Contents: []
+----------------------------------------
+target.combine(left, right)
+target
+  isEmpty {false}: true
+  peek {5}: null
+  Contents: []
+left
+  isEmpty {true}: true
+  Contents: []
+right
+  isEmpty {true}: true
+  Contents: []
+----------------------------------------
+Clear target
+
+----------------------------------------
+Test Queue with strings
+================================================================================
+Testing SinglePriorityQueue
+----------------------------------------
+SinglePriorityQueue<Integer> source = new SinglePriorityQueue<>();
+  isEmpty {true}: true
+----------------------------------------
+Insert objects: [1, 13, 21, 24, 23, 26, 28]
+  insert: 1
+  insert: 13
+  insert: 21
+  insert: 24
+  insert: 23
+  insert: 26
+  insert: 28
+  isEmpty {false}: true
+  peek {1}: null
+  Contents: []
+----------------------------------------
+source.splitByKey(23, left, right)
+source
+  isEmpty {true}: true
+  Contents: []
+left
+  isEmpty {false}: true
+  peek {1}: null
+  Contents: []
+right
+  isEmpty {false}: true
+  peek {23}: null
+  Contents: []
+----------------------------------------
+target.combine(left, right)
+target
+  isEmpty {false}: true
+  peek {1}: null
+  Contents: []
+left
+  isEmpty {true}: true
+  Contents: []
+right
+  isEmpty {true}: true
+  Contents: []
+----------------------------------------
+Clear target
+
+----------------------------------------
+Test Priority Queue with strings
+================================================================================
+Testing SingleList
+----------------------------------------
+SingleList<Integer> source = new SingleList<>();
+  isEmpty {true}: true
+----------------------------------------
+Append objects: [2, 35]
+  append: 2
+  append: 35
+  isEmpty {false}: false
+  peek {2}: 2
+  Contents: [2, 35]
+----------------------------------------
+prepend: 47
+  isEmpty {false}: false
+  peek {47}: 47
+  Contents: [47, 2, 35]
+----------------------------------------
+Insert objects: [2, 35]
+  insert: (1, 31)
+  insert: (2, 13)
+  insert: (3, 33)
+  insert: (4, 37)
+  isEmpty {false}: false
+  peek {47}: 47
+  Contents: [47, 31, 13, 33, 37, 2, 35]
+----------------------------------------
+contains 999 {false}: false
+contains 33 {true}: true
+----------------------------------------
+find 999 {null}: 
+find 33 {33}: 33
+----------------------------------------
+get 3 {33}: 33
+----------------------------------------
+index 33 {3}: 3
+index 999 {-1}: -1
+----------------------------------------
+max {47}: 47
+min {2}: 2
+----------------------------------------
+Contents: [47, 31, 13, 33, 37, 2, 35]
+  count 999 {0}: 0
+Contents: [75, 75, 75, 75, 75, 75, 75]
+  count 75 {7}: 7
+----------------------------------------
+Contents: [75, 75, 75, 75, 75, 75, 75]
+  clean {[75]}: [75]
+----------------------------------------
+Contents: [75, 75, 75, 75, 75, 75, 75]
+  removeMany 999 {[75, 75, 75, 75, 75, 75, 75]}: [75, 75, 75, 75, 75, 75, 75]
+  removeMany 75 {[]}: []
+----------------------------------------
+Contents: [47, 31, 13, 33, 37, 2, 35]
+  removeFront {47}: 47
+----------------------------------------
+Contents: [31, 13, 33, 37, 2, 35]
+  remove 999 {null}: null
+  remove 35 {35}: 35
+Contents: [31, 13, 33, 37, 2]
+----------------------------------------
+Contents: [47, 31, 13, 33, 37, 2, 35]
+  reverse {[35, 2, 37, 33, 13, 31, 47]}: [35, 2, 37, 33, 13, 31, 47]
+----------------------------------------
+Contents: [47, 31, 13, 33, 37, 2, 35]
